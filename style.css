@@ -1,0 +1,1117 @@
+/* Default responsivity for desktops and laptops */
+/* Style for menu on top */
+
+.topmenu {
+  background-color: #636669;
+  width: 100%;
+  height: 50px;
+  padding: 0 40px;
+  z-index: 1;
+  position: fixed;
+}
+
+.menu1 {
+	width: 48%;
+	display: inline-block;
+	line-height: 45px;
+	float: left;
+}
+
+.home {
+	width: 12%;
+	height: 50px;
+	color: white;
+	height: 50px;
+	padding: 0 10px;
+	display: inline-block;
+}
+
+.home:hover {
+	background-color: #8b9094;
+}
+
+.technologies {
+	width: 12%;
+	color: white;
+	height: 50px;
+	padding: 0 10px;
+	display: inline-block;
+}
+
+.technologies:hover {
+	background-color: #8b9094;
+}
+
+.projects {
+	width: 12%;
+	color: white;
+	height: 50px;
+	padding: 0 10px;
+	display: inline-block;
+}
+
+.projects:hover {
+	background-color: #8b9094;
+}
+
+.contact {
+	width: 12%;
+	color: white;
+	height: 50px;
+	padding: 0 10px;
+	display: inline-block;
+}
+
+.contact:hover {
+	background-color: #8b9094;
+}
+
+.menu2 {
+	width: 20%;
+	display: inline-block;
+	padding: 5px 10px;
+	height: 50px;
+	float: right;
+}
+
+.github2 {
+	padding: 5px 10px;
+	width: 26px;
+	height: 26px;
+}
+
+.github2:hover {
+	background-color: #8b9094;
+}
+
+.discord {
+	padding: 5px 10px;
+	width: 26px;
+	height: 26px;
+}
+
+.discord:hover {
+	background-color: #8b9094;
+}
+
+/* Style for breaks between sections */
+
+.blank {
+	width: 100%;
+	height: 200px;
+}
+
+.blank2 {
+	width: 100%;
+	height: 200px;
+	background-color: #dbd5d5;
+}
+
+.blank3 {
+	width: 100%;
+	height: 30px;
+}
+
+.blank4 {
+	width: 100%;
+	height: 50px;
+}
+
+.blank5 {
+	width: 100%;
+	height: 400px;
+}
+
+
+/* Style for moving text */
+
+.main {
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.home_photo {
+	width: 100%;
+	height: 600px; 
+	position: absolute;
+}
+
+.logo {
+  font-size: 6em;
+  vertical-align: middle;
+  line-height: 550px;
+  position: absolute;
+}
+
+.firstName {
+  background-color: transparent;
+  color: white;
+  text-align: left;
+  margin-left: 30%;
+  position: absolute;
+}
+
+.lastName {
+  background-color: transparent;
+  color: white;
+  margin-left: 30%;
+  position: absolute;
+}
+
+/* Set vendor-specific animation name and duration on .logo class */
+
+.logo {
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 3s;
+  -moz-animation-name: fadein;
+  -moz-animation-duration: 3s;
+  -ms-animation-name: fadein;
+  -ms-animation-duration: 3s;
+  -o-animation-name: fadein;
+  -o-animation-duration: 3s;
+  animation-name: fadein;
+  animation-duration: 3s;
+}
+
+/* Set vendor-specific keyframes for animation on load 
+   Position and opacity are animated */
+
+@-webkit-keyframes fadein {
+  0% { opacity: 0; margin-left: -250px; }
+  100% { opacity: 1; margin-left: 30%; }
+}
+
+@-moz-keyframes fadein {
+  0% { opacity: 0; margin-left: -250px; }
+  100% { opacity: 1; margin-left: 30%; }
+}
+
+@-ms-keyframes fadein {
+  0% { opacity: 0; margin-left: -250px; }
+  100% { opacity: 1; margin-left: 30%; }
+}
+
+@-o-keyframes fadein {
+  0% { opacity: 0; margin-left: -250px; }
+  100% { opacity: 1; margin-left: 30%; }
+}
+
+@keyframes fadein {
+  0% { opacity: 0; margin-left: -250px; }
+  100% { opacity: 1; margin-left: 30%; }
+}
+
+/* Style for About Me */
+
+#glowna {
+	height: 40px;
+}
+
+#O_mnie {
+	text-align: center;
+	font-weight: bold;
+	color: #94979c;
+}
+
+#info {
+	text-align: center;
+	font-weight: normal;
+	color: black;
+	width: 100%;
+}
+
+#front-end {
+	text-align: center;
+	font-weight: normal;
+	color: white;
+	font-size: 20px;
+	border: 1.5px solid black;
+	width: 25%;
+	height: 350px;
+	background-color: #d7e0da;
+	display: inline-block;
+	box-shadow: 0px 8px 16px 0px #000000;
+}
+
+#programs {
+	text-align: center;
+	font-weight: normal;
+	color: white;
+	font-size: 20px;
+	border: 1.5px solid black;
+	width: 25%;
+	height: 350px;
+	background-color: #d7e0da;
+	display: inline-block;
+	box-shadow: 0px 8px 16px 0px #000000;
+}
+
+#break {
+	width: 18%;
+	display: inline-block;
+}
+
+.fa-eye {
+	font-size: 40px;
+	padding: 10px 0px;
+}
+
+#eye {
+	height: 60px;
+	width: 60px;
+	margin-left: 45%;
+	margin-right: 55%;
+	border-radius: 50%;
+	background-color: black;
+}
+
+.fa-splotch {
+	font-size: 40px;
+	padding: 10px 0px;
+}
+
+#splotch {
+	height: 60px;
+	width: 60px;
+	margin-left: 45%;
+	margin-right: 55%;
+	border-radius: 50%;
+	background-color: black;
+}
+
+.about_title {
+	color: #5acbe0; 
+	font-weight: bold;
+	font-size: 24px;
+}
+
+/* Style for moving blocks */
+
+.box_photos {
+	width: 104px;
+	height: 104px;
+}
+
+#box {
+  width: 100%;
+  height: 208px;
+  margin-top: 52px;
+  background-color:	white;
+}
+#box2 {
+  width: 104px;
+  height: 104px;
+  display: inline-block;
+  border: 2px solid #000;
+  background-color: #d9d3d2;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#box3 {
+  width: 104px;
+  height: 104px;
+  display: inline-block;
+  border: 2px solid #000;
+  background-color: #d9d3d2;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#box4 {
+  width: 104px;
+  height: 104px;
+  display: inline-block;
+  border: 2px solid #000;
+  background-color: #d9d3d2;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#box5 {
+  width: 104px;
+  height: 104px;
+  display: inline-block;
+  border: 2px solid #000;
+  background-color: #d9d3d2;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#box2:hover {
+	background-color: #3c81b5;
+}
+
+#box3:hover {
+	background-color: #c08cf5;
+}
+
+#box4:hover {
+	background-color: #c49e52;
+}
+
+#box5:hover {
+	background-color: #f0dd73;
+}
+
+.box6 {
+  width: 104px;
+  height: 104px;
+  display: inline-block;
+}
+
+#jezyki {
+  text-align: center;
+  background-color: #f0e9e9;
+  margin-top: -22px;
+  width: 100%;
+  color: #55b0e0;
+}
+
+#projekty {
+  text-align: center;
+  background-color: #f0e9e9;
+  margin-top: -22px;
+  width: 100%;
+  color: #55b0e0;
+}
+
+#projekt1 {
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  color: #3c8696;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.symulator {
+  float: left;
+  margin-left: 10%;
+  width: 329px;
+  height: 160px;
+}
+
+.opis {
+  float: left;
+  text-align: center;
+  color: #349799;
+  font-size: 17px;
+  margin-left: 20px;
+}
+
+#github {
+  width: 200px;
+  height: 50px;
+  border-radius: 20%;
+  margin: auto;
+  margin-top: 4px;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid black;
+  background-color: #a5acb0;
+  font-weight: bold;
+  box-shadow: 8px 16px 16px 0px rgba(0,0,0,0.2);
+}
+
+#github:hover {
+  background-color: #7c8387;
+}
+
+.github_button {
+	padding: 4px 0px;
+	height: 28px;
+	width: 28px;
+}
+
+/* Style for links */
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Karla","Helvetica Neue", helvetica,arial,sans-serif;
+  color: #83caff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for contact */
+
+hr {
+	width: 50%;
+}
+
+#kontakt {
+	font-size: 25px;
+	font-weight: bold;
+	height: 200px;
+	width: 100%;
+	background-color: #ebedec;
+	text-align: center;
+}
+
+.discord2 {
+	height: 20px;
+	width: 20px;
+}
+
+#email {
+	color: #6ed4c1;
+}
+
+#discord2 {
+	color: #6ed4c1;
+}
+
+#email:hover {
+	color: #5dbaa9;
+}
+
+#discord2:hover {
+	color: #5dbaa9;
+}
+
+/* Style for footer */
+
+#footer {
+  width: 100%;
+  height: 60px;
+  color: white;
+  text-align: center;
+  vertical-align: center;
+  border: 1px black solid;
+  background-color: #8b9094;
+}
+
+/* Responsivity for tablets */
+
+@media only screen and (max-width: 928px) and (min-width: 600px) {
+/* Menu on Top */
+		.topmenu {
+			height: 40px;
+		}
+		.menu1 {
+			width: 60%;
+			line-height: 40px;
+		}
+
+		.home {
+			width: 15%;
+			height: 40px;
+		}
+
+		.technologies {
+			width: 15%;
+			height: 40px;
+		}
+
+		.projects {
+			width: 15%;
+			height: 40px;
+		}
+
+		.contact {
+			width: 15%;
+			height: 40px;
+		}
+		
+		.menu2 {
+			height: 40px;
+			width: 25%;
+		}
+		
+		.discord {
+			padding: 2px 10px;
+		}
+		
+		.github2 {
+			padding: 2px 10px;
+		}
+		
+/* Moving text */
+		.home_photo {
+			height: 400px; 
+		}
+		
+		.logo {
+			font-size: 3.5em;
+			line-height: 350px;
+		}
+		
+
+/* Breaks between sections */
+		.blank {
+			height: 100px;
+		}
+		.blank2 {
+			height: 150px;
+		}
+		.blank4 {
+			height: 40px;
+		}
+		.blank5 {
+			height: 300px;
+		}
+		
+/* About me */
+
+#glowna {
+	height: 25px;
+}
+
+#front-end {
+	font-size: 14px;
+	width: 27%;
+	height: 275px;
+}
+
+#programs {
+	font-size: 14px;
+	width: 27%;
+	height: 275px;
+}
+
+#break {
+	width: 18%;
+	display: inline-block;
+}
+
+.fa-eye {
+	font-size: 30px;
+	padding: 10px 0px;
+}
+
+#eye {
+	height: 50px;
+	width: 50px;
+	margin-left: 40%;
+	margin-right: 60%;
+}
+
+.fa-splotch {
+	font-size: 30px;
+	padding: 10px 0px;
+}
+
+#splotch {
+	height: 50px;
+	width: 50px;
+	margin-left: 40%;
+	margin-right: 60%;
+}
+
+.about_title {
+	font-size: 20px;
+}
+		
+/* Moving blocks */
+		.box_photos {
+			width: 79px;
+			height: 79px;
+		}
+		#box {
+			height: 158px;
+		}
+		#box2 {
+			width: 79px;
+			height: 79px;
+		}
+		#box3 {
+			width: 79px;
+			height: 79px;
+		}
+		#box4 {
+			width: 79px;
+			height: 79px;
+		}
+		#box5 {
+			width: 79px;
+			height: 79px;
+		}
+		.box6 {
+			width: 79px;
+			height: 79px;
+		}
+			
+
+/* Technologies */
+		#jezyki {
+			font-size: 15px;
+		}
+
+/* Projects */
+		.opis {
+		  font-size: 9px;
+		  margin-left: 15px;
+		}
+		.symulator {
+		  height: 100px;
+		  width: 269px;
+		  margin-left: 6.7%;
+		}
+		#projekt1 {
+			font-size: 13px;
+			height: 190px;
+		}
+		#projekty {
+			font-size: 15px;
+		}
+		#github {
+			width: 180px;
+			height: 42px;
+			font-size: 21px;
+		}
+		.github_button {
+			padding: 2px 0px;
+			height: 25px;
+			width: 25px;
+		}
+/* Contact */
+		#kontakt {
+			font-size: 19px;
+			height: 150px;
+		}
+		.discord2 {
+			height: 19px;
+			width: 19px;
+		}
+/* Footer */
+		#footer {
+			height: 55px;
+			font-size: 16px;
+		}
+}
+
+/* Responsivity for larger phones */
+
+@media only screen and (max-width: 600px) and (min-width: 449px) {
+/* Menu on Top */
+		.topmenu {
+			height: 30px;
+		}
+		.menu1 {
+			width: 60%;
+			line-height: 30px;
+			font-size: 12px;
+		}
+
+		.home {
+			width: 15%;
+			height: 30px;
+		}
+
+		.technologies {
+			width: 15%;
+			height: 30px;
+		}
+
+		.projects {
+			width: 15%;
+			height: 30px;
+		}
+
+		.contact {
+			width: 15%;
+			height: 30px;
+		}
+		
+		.menu2 {
+			height: 30px;
+			width: 25%;
+		}
+		
+		.discord {
+			padding: 2px 10px;
+			width: 18px;
+			height: 18px;
+		}
+		
+		.github2 {
+			padding: 2px 10px;
+			width: 18px;
+			height: 18px;
+		}
+		
+/* Moving text */
+		.home_photo {
+			height: 280px; 
+		}
+		
+		.logo {
+			font-size: 2.5em;
+			line-height: 230px;
+		}
+		
+
+/* Breaks between sections */
+		.blank {
+			height: 100px;
+		}
+		.blank2 {
+			height: 120px;
+		}
+		.blank4 {
+			height: 30px;
+		}
+		.blank5 {
+			height: 130px;
+		}
+		
+/* About me */
+
+#glowna {
+	height: 35px;
+}
+
+#O_mnie {
+	font-size: 15px;
+}
+
+#front-end {
+	font-size: 12px;
+	width: 28%;
+	height: 240px;
+}
+
+#programs {
+	font-size: 12px;
+	width: 28%;
+	height: 240px;
+}
+
+#break {
+	width: 18%;
+	display: inline-block;
+}
+
+.fa-eye {
+	font-size: 25px;
+	padding: 10px 0px;
+}
+
+#eye {
+	height: 45px;
+	width: 45px;
+	margin-left: 37%;
+	margin-right: 63%;
+}
+
+.fa-splotch {
+	font-size: 25px;
+	padding: 10px 0px;
+}
+
+#splotch {
+	height: 45px;
+	width: 45px;
+	margin-left: 37%;
+	margin-right: 63%;
+}
+
+.about_title {
+	font-size: 14px;
+}
+		
+/* Moving blocks */
+		.box_photos {
+			width: 79px;
+			height: 79px;
+		}
+		#box {
+			height: 158px;
+		}
+		#box2 {
+			width: 79px;
+			height: 79px;
+		}
+		#box3 {
+			width: 79px;
+			height: 79px;
+		}
+		#box4 {
+			width: 79px;
+			height: 79px;
+		}
+		#box5 {
+			width: 79px;
+			height: 79px;
+		}
+		.box6 {
+			width: 79px;
+			height: 79px;
+		}
+			
+
+/* Technologies */
+		#jezyki {
+			font-size: 13px;
+		}
+
+/* Projects */
+		.opis {
+		  font-size: 7.2px;
+		  margin-left: 5px;
+		}
+		.symulator {
+		  height: 75px;
+		  width: 199px;
+		  margin-left: 3%;
+		}
+		#projekt1 {
+			font-size: 11px;
+			height: 190px;
+		}
+		#projekty {
+			font-size: 13px;
+		}
+		#github {
+			width: 160px;
+			height: 37px;
+			font-size: 18px;
+		}
+		.github_button {
+			padding: 2px 0px;
+			height: 22px;
+			width: 22px;
+		}
+/* Contact */
+		#kontakt {
+			font-size: 16px;
+			height: 140px;
+		}
+		.discord2 {
+			height: 19px;
+			width: 19px;
+		}
+/* Footer */
+		#footer {
+			height: 50px;
+			font-size: 14px;
+		}
+}
+
+
+/* Responsivity for smaller phones */
+
+@media only screen and (max-width: 449px) and (min-width: 353px) {
+/* Menu on Top */
+		.topmenu {
+			height: 30px;
+			padding: 0 20px;
+		}
+		.menu1 {
+			width: 70%;
+			line-height: 30px;
+			font-size: 8px;
+		}
+
+		.home {
+			width: 15%;
+			height: 30px;
+			padding: 0 5px;
+		}
+
+		.technologies {
+			width: 15%;
+			height: 30px;
+			padding: 0 5px;
+		}
+
+		.projects {
+			width: 15%;
+			height: 30px;
+			padding: 0 5px;
+		}
+
+		.contact {
+			width: 15%;
+			height: 30px;
+			padding: 0 5px;
+		}
+		
+		.menu2 {
+			height: 40px;
+			width: 20%;
+		}
+		
+		.discord {
+			padding: 1px 5px;
+			width: 15px;
+			height: 15px;
+		}
+		
+		.github2 {
+			padding: 1px 5px;
+			width: 15px;
+			height: 15px;
+		}
+		
+/* Moving text */
+		.home_photo {
+			height: 225px; 
+		}
+		
+		.logo {
+			font-size: 2em;
+			line-height: 200px;
+		}
+
+/* Breaks between sections */
+		.blank {
+			height: 85px;
+		}
+		.blank2 {
+			height: 80px;
+		}
+		.blank3 {
+			height: 20px;
+		}
+		.blank4 {
+			height: 30px;
+		}
+		.blank5 {
+			height: 90px;
+		}
+		
+/* About me */
+
+#glowna {
+	height: 45px;
+}
+
+#O_mnie {
+	font-size: 10px;
+}
+
+#front-end {
+	font-size: 7px;
+	width: 28%;
+	height: 160px;
+}
+
+#programs {
+	font-size: 7px;
+	width: 28%;
+	height: 160px;
+}
+
+#break {
+	width: 18%;
+	display: inline-block;
+}
+
+.fa-eye {
+	font-size: 21px;
+	padding: 10px 0px;
+}
+
+#eye {
+	height: 36px;
+	width: 36px;
+	margin-left: 35%;
+	margin-right: 65%;
+}
+
+.fa-splotch {
+	font-size: 21px;
+	padding: 10px 0px;
+}
+
+#splotch {
+	height: 36px;
+	width: 36px;
+	margin-left: 35%;
+	margin-right: 65%;
+}
+
+.about_title {
+	font-size: 11px;
+}
+		
+/* Moving blocks */
+		.box_photos {
+			width: 44px;
+			height: 44px;
+		}
+		#box {
+			height: 68px;
+			margin-bottom: 10px;
+		}
+		#box2 {
+			width: 44px;
+			height: 44px;
+		}
+		#box3 {
+			width: 44px;
+			height: 44px;
+		}
+		#box4 {
+			width: 44px;
+			height: 44px;
+		}
+		#box5 {
+			width: 44px;
+			height: 44px;
+		}
+		.box6 {
+			width: 44px;
+			height: 44px;
+		}
+			
+
+/* Technologies */
+		#jezyki {
+			font-size: 9px;
+		}
+
+/* Projects */
+		.opis {
+		  font-size: 5px;
+		  margin-left: 10px;
+		}
+		.symulator {
+		  height: 55px;
+		  width: 154px;
+		  margin-left: 6%;
+		}
+		#projekt1 {
+			font-size: 7px;
+			height: 140px;
+		}
+		#projekty {
+			font-size: 9px;
+		}
+		#github {
+			width: 130px;
+			height: 30px;
+			font-size: 13px;
+		}
+		.github_button {
+			padding: 2px 0px;
+			height: 17px;
+			width: 17px;
+		}
+/* Contact */
+		#kontakt {
+			font-size: 12px;
+			height: 110px;
+		}
+		.discord2 {
+			height: 12px;
+			width: 12px;
+		}
+/* Footer */
+		#footer {
+			height: 35px;
+			font-size: 9px;
+		}
+}
